@@ -2,7 +2,9 @@
 Подсчитать количество различных элементов в последовательности s.
 """
 
-s = ['1', '3', '4', '6', '3', True, 1, False]
-result = len(set(s))
+def count_uniq(lst):
+    return len(set(lst))
 
-print(result)
+
+s = ['1', '3', '4', '6', '3', True, 1, False]
+print(count_uniq(s))

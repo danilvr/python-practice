@@ -2,7 +2,9 @@
 Обратить последовательность s без использования функций.
 """
 
-s = ['1', '3', '4', '6', '3', True, 1, False]
-result = s[::-1]
+def reverse(lst):
+    return lst[::-1]
 
-print(result)
+
+s = ['1', '3', '4', '6', '3', True, 1, False]
+print(reverse(s))

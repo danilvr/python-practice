@@ -2,7 +2,9 @@
 Найти строку максимальной длины в списке строк s.
 """
 
-s = ['qwe', 'qwerty', 'qw', 'qwerty12', 'qwe12345678', 'q']
-result = max(len(i) for i in s)
+def max_str(lst):
+    return max(len(i) for i in lst)
 
-print(result)
+
+s = ['qwe', 'qwerty', 'qw', 'qwerty12', 'qwe12345678', 'q']
+print(max_str(s))
