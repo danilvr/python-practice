@@ -1,5 +1,4 @@
-class CircularBuffer(object):
-pass# Практическое занятие №5
+# Практическое занятие №5
 
 ## Часть 1
 
@@ -180,3 +179,13 @@ pytest coverage/circular_buffer.py
 Случайно сгенерированные деревья:
 
 ![hypothesis](assets/hypothesis_tree.png)
+
+Команда запуска:
+
+```shell
+pytest hypothesis/tree.py
+```
+
+Вывод:
+
+![hypothesis](assets/hypothesis_test.png)
